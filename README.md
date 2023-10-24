@@ -78,4 +78,8 @@ El proyecto ya subido a AWS corriendo con docker
 
 # Video
 
+https://github.com/DanielBuilesG/ParcialAREP2/assets/73034258/e6e83111-2b12-4a06-bc27-60cc471d3dd1
+
+
+
 
