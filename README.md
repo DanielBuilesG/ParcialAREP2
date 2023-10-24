@@ -41,10 +41,10 @@ Para usarlo se debe hacer
 ```
 mvn clean install
 ```
-Para generar la carpeta del target 
+El comando anterior genera la carpeta del target 
 
 
-Una vez hecho eso, gracias a los archivos de docer que vienen con el proyecto se puede simplemente correr el siguiente comando para que se creen las imagenes y los contenedores necesarios para que corra en docker
+Una vez hecho eso, gracias a los archivos de docker que vienen con el proyecto se puede simplemente correr el siguiente comando para que se creen las imagenes y los contenedores necesarios para que corra en docker
 
 ```
 docker-compose up -d
@@ -52,6 +52,10 @@ docker-compose up -d
 
 
 Cuando las imagenes y los contenedores del docker ya estén funcionando se deberia poder ver el funcionamiento de el Collatz llendo a 
+
+```
+localhost:45000/index.html
+```
 
 
 
