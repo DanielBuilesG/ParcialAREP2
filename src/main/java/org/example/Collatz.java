@@ -26,9 +26,8 @@ public class Collatz {
         if (System.getenv("PORT") != null) {
             return Integer.parseInt(System.getenv("PORT"));
         }
-        return 42000;
+        return 45000;
     }
-
 
     private static String getCollatzResponse(int n) {
         return "{ \"operation\" : \"collatzsequence\", \n" +
